@@ -1,7 +1,5 @@
 var nodemailer = require('nodemailer');
-
 var connection = 'smtps://';
-
 var transporter = nodemailer.createTransport(connection);
 
 var mailOptions = {
